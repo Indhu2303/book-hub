@@ -1,70 +1,134 @@
-# Getting Started with Create React App
+# 📚 Book Hub — Goodreads Clone
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 🚀 Live Preview
 
-## Available Scripts
+*(Add deployed link here later — Netlify / Vercel)*
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## 📖 About the Project
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Book Hub is a responsive web application that allows users to search books and manage their personal reading list. Users can add books from a collection and organize them in a simple and intuitive interface.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## 🛠️ Tech Stack
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+* ⚛️ React.js
+* 💻 JavaScript (ES6+)
+* 🎨 Bootstrap
+* 🔀 React Router
+* 🌐 Fetch API
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## ✨ Features
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### 🔍 Search Books
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+* Search bar to filter books dynamically
 
-### `npm run eject`
+### 📚 All Books Section
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+* Displays a list of books with:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+  * Title
+  * Author
+  * Genre
+  * Rating ⭐
+* “+ Add” button to add books to reading list
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### 📝 My Reading List
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+* Displays selected books separately
+* Shows:
 
-## Learn More
+  * Book title & author
+  * Genre and rating
+* ❌ Remove button to delete books from list
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### ⭐ Ratings Display
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+* Each book shows rating using star format
 
-### Code Splitting
+### 📱 Responsive UI
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+* Clean and mobile-friendly design
 
-### Analyzing the Bundle Size
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## 🖥️ UI Sections
 
-### Making a Progressive Web App
+* Header (Book Hub title)
+* Search Bar
+* All Books List
+* My Reading List
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+---
 
-### Advanced Configuration
+## 📸 Screenshots
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+### 🏠 Home Page
 
-### Deployment
+<img width="1910" height="944" alt="Screenshot 2026-04-05 221516" src="https://github.com/user-attachments/assets/2b14ac16-02b4-479b-96f9-c3ea11f6b23b" />
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-### `npm run build` fails to minify
+### 📚 Reading List
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<img width="1905" height="931" alt="Screenshot 2026-04-05 221535" src="https://github.com/user-attachments/assets/d2c61ae4-baa0-4da9-b64b-59fd62775628" />
+
+
+---
+
+## ⚙️ Installation & Setup
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/Indhu2303/book-hub.git
+```
+
+2. Navigate to the project folder:
+
+```bash
+cd book-hub
+```
+
+3. Install dependencies:
+
+```bash
+npm install
+```
+
+4. Run the app:
+
+```bash
+npm start
+```
+
+5. Open in browser:
+
+```
+http://localhost:3000
+```
+
+---
+
+## 📌 Future Improvements
+
+* 🔐 User Authentication
+* 🌐 API integration for real-time books
+* ❤️ Favorites / Wishlist feature
+* 🌙 Dark mode
+
+---
+
+## 👩‍💻 Author
+
+**Indhu Sanapathi**
+
+---
+
+## ⭐ Acknowledgement
+
+Inspired by Goodreads UI concept
