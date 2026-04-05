@@ -2,7 +2,7 @@
 
 ## 🚀 Live Preview
 
-*(Add deployed link here later — Netlify / Vercel)*
+https://book-hub-indhu.netlify.app/
 
 ---
 
